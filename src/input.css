@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'League Spartan', sans-serif;
+}
+
+html {
+    /*background-color: #0f172a;*/
+    background-color: #0f172a;
+    background-image: radial-gradient(#1a2a4e 0.5px, #0f172a 0.5px);
+    background-size: 10px 10px;
+}
