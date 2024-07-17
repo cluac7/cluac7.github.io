@@ -2,38 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    font-family: 'League Spartan', sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-html {
-    /*background-color: #0f172a;*/
-    background-color: #0f172a;
-    background-image: radial-gradient(#1a2a4e 0.5px, #0f172a 0.5px);
-    background-size: 10px 10px;
-}
-
-.leftHiddenAni {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition: all 1s;
-}
-
-.leftShowAni {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
-
-.rightHiddenAni {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(+100%);
-    transition: all 1s;
-}
-.rightShowAni {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
+body {
+    font-family: "Montserrat", sans-serif;
 }
